@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.app-layout {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
